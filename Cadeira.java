@@ -3,6 +3,7 @@ public class Cadeira {
     private String cor;
     private String modelo;
     int tempoUso;
+    int preco;
     //get e set
     public String getCor(){
         return cor;
@@ -22,4 +23,11 @@ public class Cadeira {
     public void setTempoUso(int tempoUso){
         this.tempoUso= tempoUso;
     }
+    public int getPreco(){
+        return preco;
+    }
+    public void setPreco(int preco){
+        this.preco= preco;
+    }
 }
+
