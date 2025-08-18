@@ -4,7 +4,7 @@ public class ObjetoCadeira {
         Scanner ler = new Scanner(System.in);
 
         String cor, modelo;
-        int tempoUso;
+        int tempoUso, preco;
         Cadeira cadeira1 = new Cadeira();
         System.out.println("Informe a cor da primeira cadeira");
         cadeira1.setCor(ler.nextLine());
@@ -12,6 +12,8 @@ public class ObjetoCadeira {
         cadeira1.setModelo(ler.nextLine());
         System.out.println("Informe o tempo de uso da primeira cadeira: ");
         cadeira1.setTempoUso(ler.nextInt());
+        System.out.println("Informe o preço da primeira cadeira: ");
+        cadeira1.setPreco(ler.nextInt());
 
         ler.nextLine();
 
@@ -22,6 +24,8 @@ public class ObjetoCadeira {
         cadeira2.setModelo(ler.nextLine());
         System.out.println("Informe o tempo de uso da segunda cadeira: ");
         cadeira2.setTempoUso(ler.nextInt());
+        System.out.println("Informe o preço da segunda cadeira: ");
+        cadeira2.setPreco(ler.nextInt());
 
         ler.nextLine();
 
@@ -32,23 +36,31 @@ public class ObjetoCadeira {
         cadeira3.setModelo(ler.nextLine());
         System.out.println("Informe o tempo de uso da terceira cadeira: ");
         cadeira3.setTempoUso(ler.nextInt());
+        System.out.println("Informe o preço da terceira cadeira: ");
+        cadeira3.setPreco(ler.nextInt());
 
 
         System.out.println("DADOS");
         System.out.println("COR DA PRIMEIRA CADEIRA :" + cadeira1.getCor());
         System.out.println("MODELO DA PRIMEIRA CADEIRA :" + cadeira1.getModelo());
         System.out.println("TEMPO DE USO DA PRIMEIRA CADEIRA: " + cadeira1.getTempoUso());
+        System.out.println("PREÇO DA PRIMEIRA CADEIRA: " + cadeira1.getPreco());
 
         System.out.println("DADOS");
         System.out.println("COR DA SEGUNDA CADEIRA :" + cadeira2.getCor());
         System.out.println("MODELO DA SEGUNDA CADEIRA :" + cadeira2.getModelo());
         System.out.println("TEMPO DE USO DA SEGUNDA CADEIRA: " + cadeira2.getTempoUso());
+        System.out.println("PREÇO DA PRIMEIRA CADEIRA: " + cadeira2.getPreco());
 
         System.out.println("DADOS");
         System.out.println("COR DA TERCEIRA CADEIRA :" + cadeira3.getCor());
         System.out.println("MODELO DA TERCEIRA CADEIRA :" + cadeira3.getModelo());
         System.out.println("TEMPO DE USO DA TERCEIRA CADEIRA: " + cadeira3.getTempoUso());
+        System.out.println("PREÇO DA PRIMEIRA CADEIRA: " + cadeira3.getPreco());
+
 
     }
 }
+
+
 
